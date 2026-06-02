@@ -53,6 +53,7 @@ body.pro .pro-note{display:block}
 .q:first-of-type{border-top:none}
 .q-label{font-size:.92rem;font-weight:500;margin-bottom:10px;display:block}
 .q-label .src{font-size:.72rem;color:var(--stone-600);font-weight:400;display:none}
+.q-hint{font-size:.8rem;color:var(--stone-600);line-height:1.5;margin:-2px 0 12px;padding-left:2px}
 body.pro .q-label .src{display:inline;color:var(--teal-700)}
 
 /* Likert scale */
@@ -198,7 +199,8 @@ footer .sig{font-weight:700;color:var(--emerald-700)}
       <div class="pro-note" data-fr="HRV (Ln rMSSD) et FC de repos : toujours comparer à VOTRE baseline (3–4 sem.), pas à des normes de population. Pas de seuil universel (Plews 2012). Une baisse marquée de HRV et/ou une hausse de FC repos vs baseline sont des signaux." data-en="HRV (Ln rMSSD) and resting HR: always compare to YOUR baseline (3–4 wks), not population norms. No universal threshold (Plews 2012). A marked HRV drop and/or rise in resting HR vs baseline are signals.">Comparer à la baseline individuelle, pas aux normes.</div>
 
       <div class="q">
-        <label class="q-label" data-fr="Variation de votre HRV vs votre normale habituelle" data-en="Change in your HRV vs your usual baseline">Variation de votre HRV vs votre normale<span class="src"> — Ln rMSSD, Plews 2012</span></label>
+        <label class="q-label" data-fr="Variation de votre HRV (variabilité de la fréquence cardiaque) vs votre normale habituelle" data-en="Change in your HRV (heart rate variability) vs your usual baseline">Variation de votre HRV (variabilité de la fréquence cardiaque) vs votre normale<span class="src"> — Ln rMSSD, Plews 2012</span></label>
+        <p class="q-hint" data-fr="La HRV (heart rate variability) mesure les micro-variations de temps entre deux battements de cœur. Une HRV plus élevée traduit en général une bonne récupération ; une baisse durable peut signaler de la fatigue ou un stress. Donnée fournie par la plupart des montres et bagues connectées (Garmin, Apple Watch, Whoop, Oura…), idéalement mesurée le matin au réveil." data-en="HRV (heart rate variability) measures the tiny time variations between consecutive heartbeats. Higher HRV usually reflects good recovery; a sustained drop may signal fatigue or stress. Provided by most smartwatches and rings (Garmin, Apple Watch, Whoop, Oura…), ideally measured in the morning on waking.">La HRV mesure les micro-variations entre deux battements de cœur.</p>
         <div class="scale" data-name="hrv" data-vals="stable|baisse_legere|baisse_marquee|na" data-labels-fr="Stable / ↑|Légère baisse|Forte baisse|Je ne sais pas" data-labels-en="Stable / ↑|Slight drop|Large drop|Don't know"></div>
       </div>
 
